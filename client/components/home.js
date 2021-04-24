@@ -23,7 +23,7 @@ const Home = () => {
           <input 
             type="text"
             className="rounded p-2 text-black"
-            id="#input-field"
+            id="input-field"
             onChange={onChangeValue}
             value={value}
           />
@@ -31,7 +31,7 @@ const Home = () => {
             <button 
               type="button" 
               className="flex rounded py-1 mt-2 px-4 bg-gray-100 shadow text-black font-bold hover:bg-gray-200"
-              id="#search-button"
+              id="search-button"
               onClick={onClickHistoryPush}
             >
               Search
